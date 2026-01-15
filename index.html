@@ -245,55 +245,32 @@
     <!-- About Section -->
     <section id="about" class="py-24 bg-[#080808]">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="lg:grid lg:grid-cols-2 lg:gap-16 items-center">
-                <div class="mb-10 lg:mb-0 relative">
-                    <!-- Tech Frame -->
-                    <div class="absolute inset-0 border-2 border-teal-900/50 transform translate-x-4 translate-y-4"></div>
-                    <div class="absolute inset-0 border border-teal-500/20"></div>
-                    
-                    <div class="relative bg-zinc-900 border border-zinc-700 p-1 overflow-hidden h-96 flex items-center justify-center">
-                        <div class="absolute top-0 left-0 p-2">
-                             <svg class="w-4 h-4 text-teal-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" d="M12 4v16m8-8H4"/></svg>
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl font-bold text-white mb-6 flex items-center gap-3 font-mono uppercase tracking-tighter">
+                    <span class="w-2 h-8 bg-teal-500 inline-block mr-2"></span>
+                    // About_The_Dev
+                </h2>
+                <div class="prose prose-invert prose-lg text-slate-400">
+                    <p class="mb-4 font-light leading-relaxed border-l border-zinc-800 pl-4">
+                        Hello! I'm a Game Developer with over 5 years of experience. My journey began in school creating simple games using LUA and Love2D, which evolved into a passion for building robust gameplay systems and AI behaviors.
+                    </p>
+                    <p class="mb-8 font-light leading-relaxed border-l border-zinc-800 pl-4">
+                        I thrive on engineering the heartbeat of a game. Whether it's architecting modular ability systems, implementing tight, responsive character controllers, or optimizing complex simulation loops, I am focused on building the core systems that make gameplay feel intuitive and alive.
+                    </p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+                        <div class="bg-black border border-zinc-800 p-6 hover:border-teal-500/50 transition-colors group">
+                            <h3 class="text-teal-400 font-bold mb-2 flex items-center gap-2 font-mono text-sm uppercase">
+                                <span class="w-2 h-2 bg-teal-500 inline-block"></span>
+                                Clean Code
+                            </h3>
+                            <p class="text-xs text-slate-500">SOLID principles & scalable architecture.</p>
                         </div>
-                        <div class="absolute bottom-0 right-0 p-2">
-                             <svg class="w-4 h-4 text-teal-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" d="M12 4v16m8-8H4"/></svg>
-                        </div>
-                        
-                        <svg class="w-32 h-32 text-zinc-700" fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
-                        </svg>
-                        <div class="absolute inset-0 flex flex-col items-center justify-center text-teal-500/30">
-                            <span class="font-mono text-lg tracking-widest">[ AVATAR_MISSING ]</span>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <h2 class="text-3xl font-bold text-white mb-6 flex items-center gap-3 font-mono uppercase tracking-tighter">
-                        <span class="w-2 h-8 bg-teal-500 inline-block mr-2"></span>
-                        // About_The_Dev
-                    </h2>
-                    <div class="prose prose-invert prose-lg text-slate-400">
-                        <p class="mb-4 font-light leading-relaxed border-l border-zinc-800 pl-4">
-                            Hello! I'm a Game Developer with over 5 years of experience. My journey began in school creating simple games using LUA and Love2D, which evolved into a passion for building robust gameplay systems and AI behaviors.
-                        </p>
-                        <p class="mb-8 font-light leading-relaxed border-l border-zinc-800 pl-4">
-                            I thrive on engineering the heartbeat of a game. Whether it's architecting modular ability systems, implementing tight, responsive character controllers, or optimizing complex simulation loops, I am focused on building the core systems that make gameplay feel intuitive and alive.
-                        </p>
-                        <div class="grid grid-cols-2 gap-6 mt-8">
-                            <div class="bg-black border border-zinc-800 p-6 hover:border-teal-500/50 transition-colors group">
-                                <h3 class="text-teal-400 font-bold mb-2 flex items-center gap-2 font-mono text-sm uppercase">
-                                    <span class="w-2 h-2 bg-teal-500 inline-block"></span>
-                                    Clean Code
-                                </h3>
-                                <p class="text-xs text-slate-500">SOLID principles & scalable architecture.</p>
-                            </div>
-                            <div class="bg-black border border-zinc-800 p-6 hover:border-teal-500/50 transition-colors group">
-                                <h3 class="text-teal-400 font-bold mb-2 flex items-center gap-2 font-mono text-sm uppercase">
-                                    <span class="w-2 h-2 bg-teal-500 inline-block"></span>
-                                    Performance
-                                </h3>
-                                <p class="text-xs text-slate-500">Optimized for high frame rates.</p>
-                            </div>
+                        <div class="bg-black border border-zinc-800 p-6 hover:border-teal-500/50 transition-colors group">
+                            <h3 class="text-teal-400 font-bold mb-2 flex items-center gap-2 font-mono text-sm uppercase">
+                                <span class="w-2 h-2 bg-teal-500 inline-block"></span>
+                                Performance
+                            </h3>
+                            <p class="text-xs text-slate-500">Optimized for high frame rates.</p>
                         </div>
                     </div>
                 </div>
@@ -384,7 +361,7 @@
 
                             <!-- Expandable Content -->
                             <div id="current-project-1" class="hidden mt-4 pt-6 border-t border-zinc-800 text-sm text-slate-400" onclick="event.stopPropagation()">
-                                <h4 class="text-teal-400 font-bold mb-2 font-mono text-xs uppercase">> Core_Mechanics:</h4>
+                                <h4 class="text-teal-400 font-bold mb-2 font-mono text-xs uppercase">> Technical_Roadmap:</h4>
                                 <ul class="list-none space-y-2 mb-4 text-slate-400 font-mono text-xs pl-2">
                                     <li>[✓] Customer AI & Patience System</li>
                                     <li>[✓] Simple and intuitive crafting system</li>
@@ -406,19 +383,20 @@
                         
                         <!-- Placeholder Visual -->
                         <div class="md:w-1/2 w-full h-64 md:h-80 bg-zinc-900/30 border border-zinc-800 flex items-center justify-center relative overflow-hidden group hover:bg-zinc-900/50 transition-all duration-500">
+                            <!-- PASTE YOUR IMAGE SOURCE HERE -->
+                            <img src="" alt="Untitled Shopping Mayhem Screenshot" class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:opacity-100 transition-opacity duration-500">
+                            
                             <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-10"></div>
                             <!-- Crosshair Overlay -->
-                            <div class="absolute inset-0 flex items-center justify-center opacity-20">
+                            <div class="absolute inset-0 flex items-center justify-center opacity-20 pointer-events-none">
                                 <div class="w-full h-px bg-teal-500"></div>
                                 <div class="h-full w-px bg-teal-500 absolute"></div>
                                 <div class="w-20 h-20 border border-teal-500 rounded-full absolute"></div>
                             </div>
                             
-                            <div class="text-center z-10 p-8">
-                                <svg class="w-24 h-24 text-teal-800/40 mx-auto mb-4 group-hover:text-teal-500/60 transition-colors duration-500 transform group-hover:scale-105" fill="currentColor" viewBox="0 0 24 24">
-                                    <path d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/>
-                                </svg>
-                                <span class="font-mono text-xs text-teal-600 group-hover:text-teal-400 transition-colors block tracking-[0.2em]">PRE_ALPHA_BUILD_v0.4.2</span>
+                            <!-- Placeholder Text if no image -->
+                            <div class="text-center z-10 p-8 pointer-events-none">
+                                <span class="font-mono text-xs text-teal-600 group-hover:text-teal-400 transition-colors block tracking-[0.2em] bg-black/50 px-2 py-1">PRE_ALPHA_BUILD_v0.4.2</span>
                             </div>
                         </div>
                     </div>
@@ -472,19 +450,19 @@
                         
                         <!-- Placeholder Visual -->
                         <div class="md:w-1/2 w-full h-64 md:h-80 bg-zinc-900/30 border border-zinc-800 flex items-center justify-center relative overflow-hidden group hover:bg-zinc-900/50 transition-all duration-500">
+                            <!-- PASTE YOUR IMAGE SOURCE HERE -->
+                            <img src="" alt="Utter Construction Screenshot" class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:opacity-100 transition-opacity duration-500">
+
                             <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-10"></div>
                             <!-- Crosshair Overlay -->
-                            <div class="absolute inset-0 flex items-center justify-center opacity-20">
+                            <div class="absolute inset-0 flex items-center justify-center opacity-20 pointer-events-none">
                                 <div class="w-full h-px bg-teal-500"></div>
                                 <div class="h-full w-px bg-teal-500 absolute"></div>
                                 <div class="w-20 h-20 border border-teal-500 rounded-full absolute"></div>
                             </div>
                             
-                            <div class="text-center z-10 p-8">
-                                <svg class="w-24 h-24 text-teal-800/40 mx-auto mb-4 group-hover:text-teal-500/60 transition-colors duration-500 transform group-hover:scale-105" fill="currentColor" viewBox="0 0 24 24">
-                                    <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /><path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
-                                </svg>
-                                <span class="font-mono text-xs text-teal-600 group-hover:text-teal-400 transition-colors block tracking-[0.2em]">PROTOTYPE_v0.2.1</span>
+                            <div class="text-center z-10 p-8 pointer-events-none">
+                                <span class="font-mono text-xs text-teal-600 group-hover:text-teal-400 transition-colors block tracking-[0.2em] bg-black/50 px-2 py-1">PROTOTYPE_v0.2.1</span>
                             </div>
                         </div>
                     </div>
@@ -504,10 +482,9 @@
                 <!-- Project 1: LAPS -->
                 <div class="bg-black tech-border md:flex md:flex-row group cursor-pointer" onclick="toggleProject('project-details-1')">
                     <div class="h-56 w-full md:w-96 md:h-auto md:shrink-0 bg-zinc-900 relative overflow-hidden group-hover:opacity-90 transition-opacity border-r border-zinc-800">
-                        <div class="absolute inset-0 flex items-center justify-center">
-                            <!-- Steering Wheel / Tire Icon -->
-                            <svg class="w-20 h-20 text-zinc-800" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v4h-2zm0 6h2v2h-2z"/><circle cx="12" cy="12" r="3" fill="currentColor"/></svg>
-                        </div>
+                        <!-- PASTE YOUR IMAGE SOURCE HERE -->
+                        <img src="/LapsPic.png" alt="LAPS Screenshot" class="absolute inset-0 w-full h-full object-cover">
+                        
                         <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-60"></div>
                         <div class="absolute bottom-4 left-4">
                             <span class="px-2 py-1 bg-teal-900/80 text-teal-300 text-xs font-bold font-mono border border-teal-500/30">RACING</span>
@@ -546,7 +523,7 @@
                              </ul>
                              <div class="flex flex-wrap gap-6 text-xs text-slate-500 font-mono border-t border-zinc-800 pt-3">
                                 <div><span class="text-teal-600">ROLE:</span> UI and Menu Engineer</div>
-                                <div><span class="text-teal-600">TIME:</span> 4 Months</div>
+                                <div><span class="text-teal-600">TIME:</span> 3 Months</div>
                              </div>
                         </div>
 
@@ -559,28 +536,28 @@
                     </div>
                 </div>
 
-                <!-- Project 2: Void Breaker -->
+                <!-- Project 2: Puzzle Game Prototype -->
                 <div class="bg-black tech-border md:flex md:flex-row group cursor-pointer" onclick="toggleProject('project-details-2')">
                     <div class="h-56 w-full md:w-96 md:h-auto md:shrink-0 bg-zinc-900 relative overflow-hidden group-hover:opacity-90 transition-opacity border-r border-zinc-800">
-                        <div class="absolute inset-0 flex items-center justify-center">
-                            <svg class="w-20 h-20 text-zinc-800" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9v-2h2v2zm0-4H9V7h2v5z"/></svg>
-                        </div>
+                        <!-- PASTE YOUR IMAGE SOURCE HERE -->
+                        <img src="" alt="Puzzle Game Screenshot" class="absolute inset-0 w-full h-full object-cover">
+
                         <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-60"></div>
                          <div class="absolute bottom-4 left-4">
-                            <span class="px-2 py-1 bg-teal-900/80 text-teal-300 text-xs font-bold font-mono border border-teal-500/30">FPS</span>
+                            <span class="px-2 py-1 bg-teal-900/80 text-teal-300 text-xs font-bold font-mono border border-teal-500/30">PUZZLE</span>
                         </div>
                     </div>
                     <div class="p-8 w-full flex flex-col">
                         <div class="flex justify-between items-start mb-2">
-                             <h3 class="text-2xl font-bold text-white group-hover:text-teal-400 transition-colors font-mono uppercase">Void Breaker</h3>
+                             <h3 class="text-2xl font-bold text-white group-hover:text-teal-400 transition-colors font-mono uppercase">Puzzle Game Prototype</h3>
                              <svg class="w-5 h-5 text-zinc-700 group-hover:text-teal-500 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
                         </div>
-                        <p class="text-slate-400 text-sm mb-6 font-light">Fast-paced arena shooter with gravity-shifting mechanics. Utilized unreal engine chaos physics for destructible environments.</p>
+                        <p class="text-slate-400 text-sm mb-6 font-light">A quick prototype for a puzzle game consisting of parkour, Physics boxes, pressure plates and lasers.</p>
                         
                         <div class="flex flex-wrap gap-2 mb-6">
-                            <span class="text-xs text-zinc-400 border border-zinc-800 px-2 py-1 font-mono uppercase">UE5</span>
-                            <span class="text-xs text-zinc-400 border border-zinc-800 px-2 py-1 font-mono uppercase">C++</span>
-                            <span class="text-xs text-zinc-400 border border-zinc-800 px-2 py-1 font-mono uppercase">Multiplayer</span>
+                            <span class="text-xs text-zinc-400 border border-zinc-800 px-2 py-1 font-mono uppercase">Unity</span>
+                            <span class="text-xs text-zinc-400 border border-zinc-800 px-2 py-1 font-mono uppercase">C#</span>
+                            <span class="text-xs text-zinc-400 border border-zinc-800 px-2 py-1 font-mono uppercase">Physics</span>
                         </div>
 
                          <!-- Expandable Content -->
@@ -596,13 +573,13 @@
 
                              <h4 class="text-teal-400 font-bold mb-2 font-mono text-xs uppercase">> System_Specs:</h4>
                              <ul class="list-none space-y-1 mb-4 text-slate-400 font-mono text-xs pl-2">
-                                <li>[+] Server-authoritative multiplayer architecture</li>
-                                <li>[+] Chaos Physics integration for destruction</li>
-                                <li>[+] Custom movement component for gravity shifting</li>
+                                <li>[+] Player movement and jumping</li>
+                                <li>[+] Physics based puzzles</li>
+                                <li>[+] Laser shaders</li>
                              </ul>
                              <div class="flex flex-wrap gap-6 text-xs text-slate-500 font-mono border-t border-zinc-800 pt-3">
-                                <div><span class="text-teal-600">ROLE:</span> Gameplay Engineer</div>
-                                <div><span class="text-teal-600">TIME:</span> 12 Months</div>
+                                <div><span class="text-teal-600">ROLE:</span> Solo Developer</div>
+                                <div><span class="text-teal-600">TIME:</span> 1 Month</div>
                              </div>
                         </div>
 
@@ -615,28 +592,33 @@
                     </div>
                 </div>
 
-                <!-- Project 3: Hex Tactics -->
+                <!-- Project 3: Beat 'Em Up Prototype -->
                 <div class="bg-black tech-border md:flex md:flex-row group cursor-pointer" onclick="toggleProject('project-details-3')">
                     <div class="h-56 w-full md:w-96 md:h-auto md:shrink-0 bg-zinc-900 relative overflow-hidden group-hover:opacity-90 transition-opacity border-r border-zinc-800">
-                        <div class="absolute inset-0 flex items-center justify-center">
-                            <svg class="w-20 h-20 text-zinc-800" fill="currentColor" viewBox="0 0 24 24"><path d="M21 6H3c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-10 7H8v3H6v-3H3v-2h3V8h2v3h3v2zm4.5 2c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm4 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/></svg>
-                        </div>
+                        <!-- PASTE YOUR IMAGE SOURCE HERE -->
+                        <img src="" alt="Beat 'Em Up Screenshot" class="absolute inset-0 w-full h-full object-cover">
+
                         <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-60"></div>
                          <div class="absolute bottom-4 left-4">
-                            <span class="px-2 py-1 bg-teal-900/80 text-teal-300 text-xs font-bold font-mono border border-teal-500/30">Strategy</span>
+                            <span class="px-2 py-1 bg-teal-900/80 text-teal-300 text-xs font-bold font-mono border border-teal-500/30">ACTION</span>
+                        </div>
+                        <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+                            <!-- Fist Icon -->
+                            <svg class="w-20 h-20 text-zinc-800" fill="currentColor" viewBox="0 0 24 24"><path d="M18.364 15.536L16.95 14.12l1.414-1.414a5 5 0 10-7.071-7.071L9.879 7.05 8.464 5.636 9.88 4.222a7 7 0 019.9 9.9l-1.415 1.414zm-2.828 2.828l-1.415 1.414a7 7 0 01-9.9-9.9l1.415-1.414L7.05 9.88l-1.414 1.414a5 5 0 107.071 7.071l1.414-1.414 1.415 1.414zm-.708-10.607l1.415 1.415-7.071 7.07-1.415-1.414 7.071-7.07z"/></svg>
                         </div>
                     </div>
                     <div class="p-8 w-full flex flex-col">
                         <div class="flex justify-between items-start mb-2">
-                             <h3 class="text-2xl font-bold text-white group-hover:text-teal-400 transition-colors font-mono uppercase">Hex Tactics</h3>
+                             <h3 class="text-2xl font-bold text-white group-hover:text-teal-400 transition-colors font-mono uppercase">Beat 'Em Up Prototype</h3>
                              <svg class="w-5 h-5 text-zinc-700 group-hover:text-teal-500 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
                         </div>
-                        <p class="text-slate-400 text-sm mb-6 font-light">Turn-based strategy game designed for mobile. Implemented a custom A* pathfinding algorithm optimized for low-end devices.</p>
+                        <p class="text-slate-400 text-sm mb-6 font-light">A quick beat 'em up prototype consisting of combo attacks and Navmesh enemies which attack and can be destroyed as well as destructable objects on the level.</p>
                         
                         <div class="flex flex-wrap gap-2 mb-6">
                             <span class="text-xs text-zinc-400 border border-zinc-800 px-2 py-1 font-mono uppercase">Unity</span>
-                            <span class="text-xs text-zinc-400 border border-zinc-800 px-2 py-1 font-mono uppercase">Mobile</span>
-                            <span class="text-xs text-zinc-400 border border-zinc-800 px-2 py-1 font-mono uppercase">Algorithm</span>
+                            <span class="text-xs text-zinc-400 border border-zinc-800 px-2 py-1 font-mono uppercase">C#</span>
+                            <span class="text-xs text-zinc-400 border border-zinc-800 px-2 py-1 font-mono uppercase">Action</span>
+                            <span class="text-xs text-zinc-400 border border-zinc-800 px-2 py-1 font-mono uppercase">AI</span>
                         </div>
 
                         <!-- Expandable Content -->
@@ -652,13 +634,13 @@
 
                              <h4 class="text-teal-400 font-bold mb-2 font-mono text-xs uppercase">> System_Specs:</h4>
                              <ul class="list-none space-y-1 mb-4 text-slate-400 font-mono text-xs pl-2">
-                                <li>[+] A* Pathfinding optimization for mobile</li>
-                                <li>[+] Hex-grid coordinate system implementation</li>
-                                <li>[+] Touch-optimized UI controls</li>
+                                <li>[+] Attack combos</li>
+                                <li>[+] Special Moves</li>
+                                <li>[+] Navmesh Agents</li>
                              </ul>
                              <div class="flex flex-wrap gap-6 text-xs text-slate-500 font-mono border-t border-zinc-800 pt-3">
                                 <div><span class="text-teal-600">ROLE:</span> Solo Developer</div>
-                                <div><span class="text-teal-600">TIME:</span> 8 Months</div>
+                                <div><span class="text-teal-600">TIME:</span> 1 Month</div>
                              </div>
                         </div>
 
@@ -666,118 +648,6 @@
                             <div class="inline-flex items-center text-xs font-bold font-mono text-teal-400 hover:text-white transition-colors focus:outline-none uppercase tracking-wider group-btn">
                                 <span class="border-b border-teal-500 pb-0.5" id="btn-text-project-details-3">Expand_Data</span>
                                 <svg id="icon-project-details-3" class="w-4 h-4 ml-2 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 4: Asset Optimizer Pro -->
-                <div class="bg-black tech-border md:flex md:flex-row group cursor-pointer" onclick="toggleProject('project-details-4')">
-                    <div class="h-56 w-full md:w-96 md:h-auto md:shrink-0 bg-zinc-900 relative overflow-hidden group-hover:opacity-90 transition-opacity border-r border-zinc-800">
-                        <div class="absolute inset-0 flex items-center justify-center">
-                             <svg class="w-20 h-20 text-zinc-800" fill="currentColor" viewBox="0 0 24 24"><path d="M21 6H3c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-10 7H8v3H6v-3H3v-2h3V8h2v3h3v2zm4.5 2c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm4 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/></svg>
-                        </div>
-                        <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-60"></div>
-                         <div class="absolute bottom-4 left-4">
-                            <span class="px-2 py-1 bg-teal-900/80 text-teal-300 text-xs font-bold font-mono border border-teal-500/30">Tools</span>
-                        </div>
-                    </div>
-                    <div class="p-8 w-full flex flex-col">
-                        <div class="flex justify-between items-start mb-2">
-                             <h3 class="text-2xl font-bold text-white group-hover:text-teal-400 transition-colors font-mono uppercase">Asset Optimizer</h3>
-                             <svg class="w-5 h-5 text-zinc-700 group-hover:text-teal-500 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
-                        </div>
-                        <p class="text-slate-400 text-sm mb-6 font-light">Editor tool for Unity that automatically compresses textures and optimizes mesh complexity for build pipelines.</p>
-                        
-                        <div class="flex flex-wrap gap-2 mb-6">
-                            <span class="text-xs text-zinc-400 border border-zinc-800 px-2 py-1 font-mono uppercase">C#</span>
-                            <span class="text-xs text-zinc-400 border border-zinc-800 px-2 py-1 font-mono uppercase">Editor Scripting</span>
-                            <span class="text-xs text-zinc-400 border border-zinc-800 px-2 py-1 font-mono uppercase">Optimization</span>
-                        </div>
-
-                         <!-- Expandable Content -->
-                         <div id="project-details-4" class="hidden mt-2 pt-6 border-t border-zinc-800 text-sm text-slate-400 bg-zinc-900/20 -mx-8 px-8 pb-4" onclick="event.stopPropagation()">
-                             <!-- Video Slot -->
-                             <div class="mb-4 border border-zinc-800 bg-black aspect-video relative flex items-center justify-center overflow-hidden">
-                                <video class="w-full h-full object-cover" controls muted loop playsinline>
-                                    <!-- PASTE YOUR VIDEO SOURCE HERE -->
-                                    <source src="" type="video/mp4">
-                                    Your browser does not support the video tag.
-                                </video>
-                             </div>
-
-                             <h4 class="text-teal-400 font-bold mb-2 font-mono text-xs uppercase">> System_Specs:</h4>
-                             <ul class="list-none space-y-1 mb-4 text-slate-400 font-mono text-xs pl-2">
-                                <li>[+] Automated texture compression pipeline</li>
-                                <li>[+] Mesh decimation logic</li>
-                                <li>[+] CLI integration for CI/CD</li>
-                             </ul>
-                             <div class="flex flex-wrap gap-6 text-xs text-slate-500 font-mono border-t border-zinc-800 pt-3">
-                                <div><span class="text-teal-600">ROLE:</span> Toolsmith</div>
-                                <div><span class="text-teal-600">TIME:</span> 3 Months</div>
-                             </div>
-                        </div>
-
-                        <div class="flex items-center justify-between mt-auto pt-2">
-                            <div class="inline-flex items-center text-xs font-bold font-mono text-teal-400 hover:text-white transition-colors focus:outline-none uppercase tracking-wider group-btn">
-                                <span class="border-b border-teal-500 pb-0.5" id="btn-text-project-details-4">Expand_Data</span>
-                                <svg id="icon-project-details-4" class="w-4 h-4 ml-2 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 5: Chrono Drifter -->
-                <div class="bg-black tech-border md:flex md:flex-row group cursor-pointer" onclick="toggleProject('project-details-5')">
-                    <div class="h-56 w-full md:w-96 md:h-auto md:shrink-0 bg-zinc-900 relative overflow-hidden group-hover:opacity-90 transition-opacity border-r border-zinc-800">
-                        <div class="absolute inset-0 flex items-center justify-center">
-                             <svg class="w-20 h-20 text-zinc-800" fill="currentColor" viewBox="0 0 24 24"><path d="M5 13h14v-2H5v2zm-2 4h14v-2H3v2zM7 7v2h14V7H7z"/></svg>
-                        </div>
-                        <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-60"></div>
-                         <div class="absolute bottom-4 left-4">
-                            <span class="px-2 py-1 bg-teal-900/80 text-teal-300 text-xs font-bold font-mono border border-teal-500/30">RPG</span>
-                        </div>
-                    </div>
-                    <div class="p-8 w-full flex flex-col">
-                        <div class="flex justify-between items-start mb-2">
-                             <h3 class="text-2xl font-bold text-white group-hover:text-teal-400 transition-colors font-mono uppercase">Chrono Drifter</h3>
-                             <svg class="w-5 h-5 text-zinc-700 group-hover:text-teal-500 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
-                        </div>
-                        <p class="text-slate-400 text-sm mb-6 font-light">2D pixel art platformer with time-rewind mechanics. Created a custom deterministic physics engine to handle time manipulation.</p>
-                        
-                        <div class="flex flex-wrap gap-2 mb-6">
-                            <span class="text-xs text-zinc-400 border border-zinc-800 px-2 py-1 font-mono uppercase">Godot</span>
-                            <span class="text-xs text-zinc-400 border border-zinc-800 px-2 py-1 font-mono uppercase">GDScript</span>
-                            <span class="text-xs text-zinc-400 border border-zinc-800 px-2 py-1 font-mono uppercase">Physics</span>
-                        </div>
-
-                         <!-- Expandable Content -->
-                         <div id="project-details-5" class="hidden mt-2 pt-6 border-t border-zinc-800 text-sm text-slate-400 bg-zinc-900/20 -mx-8 px-8 pb-4" onclick="event.stopPropagation()">
-                             <!-- Video Slot -->
-                             <div class="mb-4 border border-zinc-800 bg-black aspect-video relative flex items-center justify-center overflow-hidden">
-                                <video class="w-full h-full object-cover" controls muted loop playsinline>
-                                    <!-- PASTE YOUR VIDEO SOURCE HERE -->
-                                    <source src="" type="video/mp4">
-                                    Your browser does not support the video tag.
-                                </video>
-                             </div>
-
-                             <h4 class="text-teal-400 font-bold mb-2 font-mono text-xs uppercase">> System_Specs:</h4>
-                             <ul class="list-none space-y-1 mb-4 text-slate-400 font-mono text-xs pl-2">
-                                <li>[+] Command pattern for time rewinding</li>
-                                <li>[+] Deterministic physics simulations</li>
-                                <li>[+] Pixel-perfect collision detection</li>
-                             </ul>
-                             <div class="flex flex-wrap gap-6 text-xs text-slate-500 font-mono border-t border-zinc-800 pt-3">
-                                <div><span class="text-teal-600">ROLE:</span> Gameplay Programmer</div>
-                                <div><span class="text-teal-600">TIME:</span> 6 Months</div>
-                             </div>
-                        </div>
-
-                        <div class="flex items-center justify-between mt-auto pt-2">
-                            <div class="inline-flex items-center text-xs font-bold font-mono text-teal-400 hover:text-white transition-colors focus:outline-none uppercase tracking-wider group-btn">
-                                <span class="border-b border-teal-500 pb-0.5" id="btn-text-project-details-5">Expand_Data</span>
-                                <svg id="icon-project-details-5" class="w-4 h-4 ml-2 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                             </div>
                         </div>
                     </div>
@@ -810,11 +680,11 @@
             </div>
 
             <div class="mt-12 flex justify-center space-x-8">
-                <a href="#" class="text-zinc-600 hover:text-teal-400 transition-colors border border-zinc-800 p-3 hover:border-teal-500">
+                <a href="https://github.com/RyanPatchett" target="_blank" rel="noopener noreferrer" class="text-zinc-600 hover:text-teal-400 transition-colors border border-zinc-800 p-3 hover:border-teal-500">
                     <span class="sr-only">GitHub</span>
                     <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.48 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.059 1.531 1.059.892 1.529 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd" /></svg>
                 </a>
-                <a href="#" class="text-zinc-600 hover:text-teal-400 transition-colors border border-zinc-800 p-3 hover:border-teal-500">
+                <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" class="text-zinc-600 hover:text-teal-400 transition-colors border border-zinc-800 p-3 hover:border-teal-500">
                     <span class="sr-only">LinkedIn</span>
                     <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" clip-rule="evenodd" /></svg>
                 </a>
